@@ -12,7 +12,7 @@ import { showToast } from '@/helpers/showToast'
 import { getEvn } from '@/helpers/getEnv'
 import { useDispatch } from 'react-redux'
 import { setUser } from '@/redux/user/user.slice'
-import GoogleLogin from '@/components/GoogleLogin'
+
 import logo from '@/assets/images/logo-white.png'
 const SignIn = () => {
 
@@ -64,7 +64,7 @@ const SignIn = () => {
                 </div>
                 <h1 className='text-2xl font-bold text-center mb-5'>Login Into Account</h1>
                 <div className=''>
-                    <GoogleLogin />
+                   
                     <div className='border my-5 flex justify-center items-center'>
                         <span className='absolute bg-white text-sm'>Or</span>
                     </div>
